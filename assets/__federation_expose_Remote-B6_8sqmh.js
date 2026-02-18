@@ -6,7 +6,7 @@ const {useState} = await importShared('react');
 function Remote() {
   const [count, setCount] = useState(0);
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { children: "Remote" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { children: "Remote v2" }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
       "Count: ",
       count
