@@ -3,7 +3,7 @@ const currentImports = {};
       let moduleMap = {
 "./Remote":()=>{
       dynamicLoadingCss(["style-D1EHTbMk.css"], false, './Remote');
-      return __federation_import('/remote-app/assets/__federation_expose_Remote-CrGBxZZx.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
+      return __federation_import('/remote-app/assets/__federation_expose_Remote-Bmoxktd3.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
       const seen = {};
       const dynamicLoadingCss = (cssFilePaths, dontAppendStylesToHead, exposeItemName) => {
         const metaUrl = import.meta.url;
