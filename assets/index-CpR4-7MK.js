@@ -16443,9 +16443,9 @@ function requireClient () {
 
 var clientExports = requireClient();
 
-const reactLogo = "/assets/react-CHdo91hT.svg";
+const reactLogo = "/remote-app/assets/react-CHdo91hT.svg";
 
-const viteLogo = "/vite.svg";
+const viteLogo = "/remote-app/vite.svg";
 
 const {useState} = await importShared('react');
 function App() {

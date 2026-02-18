@@ -3,7 +3,7 @@ const currentImports = {};
       let moduleMap = {
 "./Remote":()=>{
       dynamicLoadingCss(["style-D1EHTbMk.css"], false, './Remote');
-      return __federation_import('./__federation_expose_Remote-Dsas4EwK.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
+      return __federation_import('/remote-app/assets/__federation_expose_Remote-Dsas4EwK.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
       const seen = {};
       const dynamicLoadingCss = (cssFilePaths, dontAppendStylesToHead, exposeItemName) => {
         const metaUrl = import.meta.url;
@@ -13,7 +13,7 @@ const currentImports = {};
         }
 
         const curUrl = metaUrl.substring(0, metaUrl.lastIndexOf('remoteEntry.js'));
-        const base = '/';
+        const base = '/remote-app/';
         'assets';
 
         cssFilePaths.forEach(cssPath => {
